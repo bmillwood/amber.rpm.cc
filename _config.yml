@@ -21,6 +21,9 @@ twitter_username: contemplatonist
 github_username: bmillwood
 minimal_mistakes_skin: default
 search: true
+lunr:
+  search_within_pages: true
+  search_full_content: true
 
 # Build settings
 markdown: kramdown
