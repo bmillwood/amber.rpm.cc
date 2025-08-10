@@ -3,7 +3,7 @@ permalink: /services/
 title: "Services"
 ---
 
-# Copyediting, proofreading and review
+## Copyediting, proofreading and review
 
 These services are for more polished drafts. I can:
 
@@ -11,36 +11,36 @@ These services are for more polished drafts. I can:
 - suggest language edits to improve the style and make the draft clearer
 - review the draft and leave feedback on the content: does the argument make sense? Will your non-expert readers understand? Are there any obvious objections you haven’t addressed? What might make the draft more engaging?
 
-## Prices
+### Prices
 
 - basic proofreading: £0.01 per word
 - copyediting and review: £0.02-£0.04 per word. The price depends on how intensive the edits are and how complex the subject matter is. This also includes proofreading.
 
 £50 is the minimum price for any of these services (regardless of word count).
 
-# Substantive editing
+## Substantive editing
 
 I will substantively rewrite a rough draft, preserving your meaning but rephrasing and restructuring the piece to make it clearer and more engaging.
 
 **£0.06** per word, with £50 minimum.
 
-# Quick review
+## Quick review
 
 I spend up to an hour correcting obvious errors, suggesting priority edits, and giving my overall impressions on the content. Appropriate if you just want someone to take a quick look.
 
 £40
 
-# Writing coaching
+## Writing coaching
 
 I offer writing and editing guidance over calls.
 
 I’ve thought a lot about what makes writing good. I can help you with everything from the nuts and bolts of sentence structure, to writer’s block, to the best way to convey your arguments.
 
-## Price
+### Price
 
 £40 per hour
 
-# Writing assistance
+## Writing assistance
 
 I can help you write things even if you haven’t written a draft yet. This could involve some combination of:
 
@@ -48,7 +48,7 @@ I can help you write things even if you haven’t written a draft yet. This coul
 - writing drafts
 - editing rough drafts/notes
 
-## Pricing
+### Pricing
 
 - £0.12/word for producing content from scratch
 - £0.06/word for substantive editing of rough drafts
