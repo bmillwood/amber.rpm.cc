@@ -1,32 +1,27 @@
-# Edit this file to update the Writing page.
-# For 'with_others', each item has a title, url, and author.
-# For 'personal', each item has a title and url.
-# 'more_url' is the link for "More posts are here".
-
 with_others:
-  more_url: "https://medium.com/"  # Update with the correct link
+  more_url: "https://forum.effectivealtruism.org/users/amber"
   posts:
     - title: Strange love — Developing empathy with intention
-      url: "#"  # Replace with actual URL
+      url: "https://forum.effectivealtruism.org/posts/EGSNTNdm49RhXxmBt/strange-love-developing-empathy-with-intention-or-how-i"
       author: Edo Arad
     - title: "Against Turing tests: Don't teach AIs to lie to humans"
-      url: "#"
+      url: "https://www.pasteurscube.com/against-turing-tests-dont-teach-ais-to-lie-to-humans/"
       author: Peter Wildeford
     - title: "Impact markets: A funding mechanism for speculative work"
-      url: "#"
+      url: "https://impactmarkets.substack.com/p/impact-markets-a-funding-mechanism"
       author: Dawn Drescher
     - title: "Understand how other people think: a theory of worldviews"
-      url: "#"
+      url: "https://www.clearerthinking.org/post/understand-how-other-people-think-a-theory-of-worldviews"
       author: Spencer Greenberg
 
 personal:
-  more_url: "https://medium.com/"  # Update with the correct link
+  more_url: "https://medium.com/@contemplatonist"
   posts:
     - title: How hard should you dodge motivated reasoning?
-      url: "#"
+      url: "https://medium.com/@contemplatonist/how-hard-should-you-dodge-motivated-reasoning-1585b015f078"
     - title: Other people's morals should challenge us
-      url: "#"
+      url: "https://medium.com/@contemplatonist/other-peoples-morals-should-challenge-us-fae11232602c"
     - title: Pilaster arguments
-      url: "#"
+      url: "https://medium.com/@contemplatonist/pilaster-arguments-88e2f23fce86"
     - title: Describe conflicts anonymously
-      url: "#"
+      url: "https://medium.com/@contemplatonist/describe-conflicts-anonymously-d9dba8b30506"
