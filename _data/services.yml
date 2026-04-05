@@ -1,0 +1,53 @@
+# Edit this file to update service descriptions and prices.
+# 'details' supports markdown: use - for bullet points, blank lines between paragraphs.
+
+- title: Copyediting, proofreading and review
+  summary: I'll improve your text's style and flow, check that the content makes sense, and correct errors.
+  price: "£0.02–£0.04/word"
+  details: |
+    I'll read your text carefully and offer corrections and suggestions, including:
+
+    - Fixing typos, grammar errors, and punctuation
+    - Suggesting alternative phrasing to improve clarity and flow
+    - Improving consistency in tone, style, and terminology
+    - Making sure the content is easy for your intended audience to follow
+
+    I try to stay true to the style of the original author, regardless of the subject matter.
+
+- title: Substantive editing
+  summary: I'll refine your text's structure and intensively optimize the language.
+  price: "£0.06/word"
+  details: |
+    A deeper edit that goes beyond proofreading. I'll look at the big picture as well as the details: restructuring arguments, tightening prose, and making sure your ideas come across as clearly and compellingly as possible.
+
+- title: Quick review
+  summary: A quick turnaround reading where I suggest improvements. Good for a second opinion before you publish.
+  price: "Free"
+  details: |
+    If you'd like a light-touch read before hitting publish, I'm happy to offer a quick review for short pieces. I'll highlight anything that stands out as confusing or worth reconsidering.
+
+    [Get in touch](/contact) to discuss.
+
+- title: Writing coaching
+  summary: I'll offer bespoke writing and editing guidance.
+  price: "£40/hour"
+  details: |
+    After reading your writing, I offer tailored feedback and coaching, working with you to understand your goals and develop your voice. We'll look at both craft (sentence-level choices) and strategy (how to structure and pitch your work).
+
+- title: Writing assistance
+  summary: I can help you go from 'I want this idea to be written down' to publication.
+  price: ""
+  details: |
+    Sometimes the hardest part is getting started. I can help at any stage:
+
+    - Talking through ideas
+    - Outlining and structuring
+    - Drafting alongside you
+
+    Whether you have a rough draft or just a half-formed idea, [get in touch](/contact) and we can figure out the best way to work together.
+
+- title: Other services
+  summary: I'm happy to offer other services related to writing, editing and review.
+  price: ""
+  details: |
+    If you have something in mind that isn't covered by the categories above, [get in touch](/contact). I'm open to discussing whatever would be most useful to you.

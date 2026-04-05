@@ -1,0 +1,14 @@
+title: Amber Dawn Ace
+description: Writing and editing for altruists
+url: "https://amber.rpm.cc"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

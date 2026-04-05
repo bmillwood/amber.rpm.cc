@@ -1,0 +1,629 @@
+/* ============================================================
+   Variables & Reset
+   ============================================================ */
+
+:root {
+  --teal:       #00B5CC;
+  --light-blue: #D8EEF5;
+  --cream:      #F0E9DF;
+  --magenta:    #E040A0;
+  --dark-teal:  #1A7280;
+  --white:      #ffffff;
+
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body:    'Lato', system-ui, -apple-system, sans-serif;
+
+  --max-width: 960px;
+  --nav-height: 64px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--dark-teal);
+  background: var(--cream);
+}
+
+a {
+  color: var(--magenta);
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+ul { list-style: none; }
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+/* ============================================================
+   Buttons
+   ============================================================ */
+
+.btn {
+  display: inline-block;
+  padding: 0.6em 1.4em;
+  border-radius: 4px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.btn:hover { opacity: 0.85; text-decoration: none; }
+
+/* Filled magenta — used in nav */
+.btn-nav {
+  background: var(--magenta);
+  color: var(--white);
+  border: 2px solid var(--magenta);
+}
+
+/* Outlined — used on cream/light backgrounds */
+.btn-outline {
+  background: transparent;
+  color: var(--magenta);
+  border: 2px solid var(--magenta);
+}
+.btn-outline:hover { background: var(--magenta); color: var(--white); }
+
+/* Outlined light — used on dark teal backgrounds */
+.btn-outline-light {
+  background: transparent;
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+.btn-outline-light:hover { background: var(--white); color: var(--teal); }
+
+
+/* ============================================================
+   Navigation
+   ============================================================ */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background: var(--white);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  height: var(--nav-height);
+  gap: 1rem;
+}
+
+.site-title {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  color: var(--magenta);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.site-title:hover { text-decoration: none; opacity: 0.85; }
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-links a {
+  color: var(--dark-teal);
+  font-size: 0.95rem;
+}
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--magenta);
+  text-decoration: none;
+}
+.nav-links a.active {
+  border-bottom: 2px solid var(--magenta);
+  padding-bottom: 2px;
+}
+
+
+/* ============================================================
+   Hero / Banner sections
+   ============================================================ */
+
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-teal);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.hero-content h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  color: var(--white);
+  font-weight: 400;
+  line-height: 1.3;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Full-width image strip (no text) */
+.image-strip {
+  width: 100%;
+  height: 300px;
+  background-color: var(--dark-teal);
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* ============================================================
+   Generic section wrapper
+   ============================================================ */
+
+.section-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.section-center {
+  text-align: center;
+}
+
+/* Background variants */
+.bg-light-blue { background: var(--light-blue); }
+.bg-teal       { background: var(--teal); }
+.bg-cream      { background: var(--cream); }
+.bg-white      { background: var(--white); }
+
+
+/* ============================================================
+   Homepage: hook questions
+   ============================================================ */
+
+.hook-section {
+  background: var(--light-blue);
+}
+
+.hook-section .section-inner {
+  max-width: 640px;
+}
+
+.hook-section p {
+  font-size: 1.2rem;
+  color: var(--dark-teal);
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.hook-section .hook-answer {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--dark-teal);
+  text-align: center;
+  margin-top: 0.4rem;
+}
+
+
+/* ============================================================
+   Homepage: services grid
+   ============================================================ */
+
+.services-grid-section {
+  background: var(--teal);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+/* Last row: centre remaining cards */
+.services-grid .service-card:nth-child(4) { grid-column: 1; }
+.services-grid .service-card:nth-child(5) { grid-column: 2; }
+
+.service-card {
+  text-align: center;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.service-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.92);
+  flex: 1;
+}
+
+.service-card .price {
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.85);
+}
+
+
+/* ============================================================
+   Wave divider
+   ============================================================ */
+
+.wave-divider {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background: var(--teal);
+}
+
+.wave-divider svg {
+  display: block;
+  width: 100%;
+}
+
+
+/* ============================================================
+   Contact CTA
+   ============================================================ */
+
+.contact-cta {
+  background: var(--cream);
+  text-align: center;
+  padding: 5rem 1.5rem;
+}
+
+.contact-cta-text {
+  font-family: var(--font-heading);
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+  color: var(--dark-teal);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.contact-cta-text a {
+  color: var(--dark-teal);
+  text-decoration: underline;
+}
+
+
+/* ============================================================
+   Footer
+   ============================================================ */
+
+.site-footer {
+  background: var(--cream);
+  border-top: 1px solid rgba(0,0,0,0.08);
+  padding: 2rem 1.5rem;
+}
+
+.footer-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+  color: var(--dark-teal);
+}
+
+.footer-contact strong {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.footer-contact a {
+  color: var(--magenta);
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-left: auto;
+  color: var(--dark-teal);
+}
+
+.footer-social a {
+  color: var(--dark-teal);
+  display: flex;
+  align-items: center;
+}
+.footer-social a:hover { color: var(--magenta); }
+
+
+/* ============================================================
+   About page
+   ============================================================ */
+
+.about-hero {
+  background: var(--cream);
+  padding: 4rem 1.5rem 2rem;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+  color: var(--magenta);
+}
+
+.about-content {
+  background: var(--light-blue);
+}
+
+.about-content .section-inner {
+  max-width: 640px;
+}
+
+.about-content p {
+  margin-bottom: 1.2rem;
+  color: var(--dark-teal);
+  font-size: 1.05rem;
+}
+
+.about-photo {
+  background: var(--light-blue);
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem 4rem;
+}
+
+.about-photo img {
+  max-width: 300px;
+  border-radius: 4px;
+}
+
+
+/* ============================================================
+   Services page
+   ============================================================ */
+
+.services-hero {
+  min-height: 240px;
+}
+
+.services-hero h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+}
+
+.services-list {
+  background: var(--light-blue);
+}
+
+.service-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+  padding: 3.5rem 0;
+  border-bottom: 1px solid rgba(26, 114, 128, 0.15);
+}
+
+.service-row:last-child { border-bottom: none; }
+
+.service-row-title {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--dark-teal);
+  padding-top: 0.2rem;
+}
+
+.service-row-body p {
+  margin-bottom: 0.9rem;
+  color: var(--dark-teal);
+}
+
+.service-row-body ul {
+  list-style: disc;
+  padding-left: 1.4rem;
+  margin-bottom: 0.9rem;
+}
+
+.service-row-body ul li {
+  margin-bottom: 0.4rem;
+  color: var(--dark-teal);
+}
+
+.service-price {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: var(--dark-teal);
+}
+
+
+/* ============================================================
+   Writing page
+   ============================================================ */
+
+.writing-section {
+  background: var(--light-blue);
+}
+
+.writing-section .section-inner {
+  max-width: 640px;
+  text-align: center;
+}
+
+.writing-group {
+  margin-bottom: 3rem;
+}
+
+.writing-group h2 {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--magenta);
+  margin-bottom: 1.5rem;
+}
+
+.writing-list {
+  list-style: none;
+  padding: 0;
+}
+
+.writing-list li {
+  margin-bottom: 1.2rem;
+}
+
+.writing-list a {
+  display: block;
+  color: var(--magenta);
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.writing-list .author {
+  display: block;
+  color: var(--dark-teal);
+  font-size: 0.9rem;
+  margin-top: 0.1rem;
+}
+
+.writing-more {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: var(--dark-teal);
+}
+
+.writing-more a { color: var(--magenta); }
+
+
+/* ============================================================
+   Contact page
+   ============================================================ */
+
+.contact-page {
+  background: var(--light-blue);
+}
+
+.contact-page .section-inner {
+  max-width: 640px;
+}
+
+.contact-page h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-weight: 400;
+  color: var(--magenta);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  text-align: center;
+}
+
+.contact-methods p {
+  font-size: 1.1rem;
+  color: var(--dark-teal);
+}
+
+.contact-methods a {
+  color: var(--dark-teal);
+  text-decoration: underline;
+}
+
+.contact-social {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+  color: var(--dark-teal);
+}
+
+.contact-social a {
+  color: var(--dark-teal);
+  display: flex;
+  align-items: center;
+}
+.contact-social a:hover { color: var(--magenta); }
+
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+
+@media (max-width: 720px) {
+  .nav-links { display: none; }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  .services-grid .service-card:nth-child(4),
+  .services-grid .service-card:nth-child(5) {
+    grid-column: auto;
+  }
+
+  .service-row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+  }
+  .footer-social {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-inner { padding: 0 1rem; }
+  .section-inner { padding: 2.5rem 1rem; }
+}

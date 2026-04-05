@@ -1,0 +1,28 @@
+---
+layout: default
+title: Services
+---
+
+<!-- Hero -->
+<section class="hero services-hero" style="background-image: url('/assets/images/services-hero.jpg');">
+    <div class="hero-content">
+        <h1>My Services</h1>
+    </div>
+</section>
+
+<!-- Service list -->
+<section class="services-list">
+    <div class="section-inner">
+        {% for service in site.data.services %}
+        <div class="service-row" id="{{ service.title | slugify }}">
+            <h2 class="service-row-title">{{ service.title }}</h2>
+            <div class="service-row-body">
+                {{ service.details | markdownify }}
+                {% if service.price != "" %}
+                <p class="service-price">{{ service.price }}</p>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

@@ -1,5 +1,49 @@
-<!DOCTYPE html>
-<html>
-<head><title>amber.rpm.cc</title></head>
-<body>amber.rpm.cc</body>
-</html>
+---
+layout: default
+---
+
+<!-- Hero: sea photo -->
+<section class="hero" style="background-image: url('/assets/images/hero-sea.jpg'); min-height: 400px;">
+  <div class="hero-content">
+    <h1>Writing and editing for altruists</h1>
+  </div>
+</section>
+
+<!-- Hook questions -->
+<section class="hook-section">
+  <div class="section-inner section-center">
+    <p>Do you need help polishing rough drafts?</p>
+    <p>Would you like to learn how to write better?</p>
+    <p>Do you have a great blog idea, but never get round to writing it up?</p>
+    <p class="hook-answer">I can help.</p>
+  </div>
+</section>
+
+<!-- Image strip: stained glass doors -->
+<div class="image-strip" style="background-image: url('/assets/images/stained-glass.jpg');"></div>
+
+<!-- Services grid -->
+<section class="services-grid-section">
+  <div class="section-inner">
+    <div class="services-grid">
+      {% for service in site.data.services %}
+      <div class="service-card">
+        <h3>{{ service.title }}</h3>
+        <p>{{ service.summary }}</p>
+        {% if service.price != "" %}
+        <p class="price">{{ service.price }}</p>
+        {% endif %}
+        <a href="/services#{{ service.title | slugify }}" class="btn btn-outline-light">Learn more</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Wave divider -->
+<div class="wave-divider">
+  <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" fill="#F0E9DF"/>
+    <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40" fill="none" stroke="#E040A0" stroke-width="3"/>
+  </svg>
+</div>

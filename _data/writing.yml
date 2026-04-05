@@ -1,0 +1,32 @@
+# Edit this file to update the Writing page.
+# For 'with_others', each item has a title, url, and author.
+# For 'personal', each item has a title and url.
+# 'more_url' is the link for "More posts are here".
+
+with_others:
+  more_url: "https://medium.com/"  # Update with the correct link
+  posts:
+    - title: Strange love — Developing empathy with intention
+      url: "#"  # Replace with actual URL
+      author: Edo Arad
+    - title: "Against Turing tests: Don't teach AIs to lie to humans"
+      url: "#"
+      author: Peter Wildeford
+    - title: "Impact markets: A funding mechanism for speculative work"
+      url: "#"
+      author: Dawn Drescher
+    - title: "Understand how other people think: a theory of worldviews"
+      url: "#"
+      author: Spencer Greenberg
+
+personal:
+  more_url: "https://medium.com/"  # Update with the correct link
+  posts:
+    - title: How hard should you dodge motivated reasoning?
+      url: "#"
+    - title: Other people's morals should challenge us
+      url: "#"
+    - title: Pilaster arguments
+      url: "#"
+    - title: Describe conflicts anonymously
+      url: "#"
