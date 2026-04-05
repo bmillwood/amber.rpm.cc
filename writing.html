@@ -8,3 +8,28 @@ title: Writing
 
         <div class="writing-group">
             <h2>With others</h2>
+            <ul class="writing-list">
+                {% for post in site.data.writing.with_others.posts %}
+                <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    <span class="author">{{ post.author }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+            <p class="writing-more"><a href="{{ site.data.writing.with_others.more_url }}">More posts are here</a></p>
+        </div>
+
+        <div class="writing-group">
+            <h2>Personal writing</h2>
+            <ul class="writing-list">
+                {% for post in site.data.writing.personal.posts %}
+                <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            <p class="writing-more"><a href="{{ site.data.writing.personal.more_url }}">More blogs here</a></p>
+        </div>
+
+    </div>
+</section>
