@@ -3,7 +3,8 @@
 
 
 - title: Copyediting, proofreading, and review
-  summary: 
+  summary: I'll improve your text's style and flow, check that the content makes sense, and correct errors.
+  price: "£0.01-£0.04/word"
   details: |
     These services are for more polished drafts. I can:
 
@@ -19,13 +20,13 @@
     £50 is the minimum price for any of these services (regardless of word count).
 
 - title: Substantive editing
-  summary: 
+  summary: I’ll refine your text’s structure and intensively optimize the language.
   price: "£0.06/word"
   details: |
     I will substantively rewrite a rough draft, preserving your meaning but rephrasing and restructuring the piece to make it clearer and more engaging.
 
 - title: Quick review
-  summary: 
+  summary: I'll spend an hour suggesting priority edits.
   price: "£40"
   details:
     I spend up to an hour correcting obvious errors, suggesting priority edits, and giving my overall impressions on the content. Appropriate if you just want someone to take a quick look. 
@@ -33,7 +34,7 @@
     [Get in touch](/contact) to discuss.
 
 - title: Writing coaching
-  summary: 
+  summary: I’ll offer bespoke writing and editing guidance. 
   price: "£40/hour"
   details:
   I offer writing and editing guidance over calls. 
@@ -42,8 +43,8 @@
    
 
 - title: Writing assistance
-  summary:
-  price: ""
+  summary: I can help you go from ‘I want this idea to be written down’ to publication.
+  price: "Bespoke prices"
   details: |
     I can help you write things even if you haven’t written a draft yet. This could involve some combination of:
 
@@ -62,7 +63,12 @@
     -£40/hour for calls, additional research, and miscellaneous
 
 - title: Other services
-  summary: 
+  summary: I’m happy to offer other services related to writing, editing and review. If you have something in mind that isn’t covered by the above categories, get in touch.
   price: ""
-  details:
-    Clients have hired me to do things that are related to writing and editing but don’t fall into the categories above: for example, developing resources, desk research, and conceptual research collaboration. If you’re interested in hiring me for something like this, get in touch and I’ll propose a bespoke price. 
+  details: 
+    Clients have hired me to do things that are related to writing and editing but don’t fall into the categories above: for example, developing resources, desk research, and conceptual research collaboration. If you’re interested in hiring me for something like this, get in touch and I’ll propose a bespoke price.
+
+
+
+
+  
