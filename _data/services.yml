@@ -1,53 +1,68 @@
 # Edit this file to update service descriptions and prices.
 # 'details' supports markdown: use - for bullet points, blank lines between paragraphs.
 
-- title: Copyediting, proofreading and review
-  summary: I'll improve your text's style and flow, check that the content makes sense, and correct errors.
-  price: "£0.02–£0.04/word"
+
+- title: Copyediting, proofreading, and review
+  summary: 
   details: |
-    I'll read your text carefully and offer corrections and suggestions, including:
+    These services are for more polished drafts. I can:
 
-    - Fixing typos, grammar errors, and punctuation
-    - Suggesting alternative phrasing to improve clarity and flow
-    - Improving consistency in tone, style, and terminology
-    - Making sure the content is easy for your intended audience to follow
+   -proofread the draft, correcting spelling, grammatical and formatting errors
+   -suggest language edits to improve the style and make the draft clearer
+   -review the draft and leave feedback on the content: does the argument make sense? Will your non-expert readers understand? Are there any obvious objections you haven’t addressed? What might make the draft more engaging?
 
-    I try to stay true to the style of the original author, regardless of the subject matter.
+    Prices
+
+    -basic proofreading: £0.01 per word
+    -copyediting and review: £0.02-£0.04 per word. The price depends on how intensive the edits are and how complex the subject matter is. This also includes proofreading.
+
+    £50 is the minimum price for any of these services (regardless of word count).
 
 - title: Substantive editing
-  summary: I'll refine your text's structure and intensively optimize the language.
+  summary: 
   price: "£0.06/word"
   details: |
-    A deeper edit that goes beyond proofreading. I'll look at the big picture as well as the details: restructuring arguments, tightening prose, and making sure your ideas come across as clearly and compellingly as possible.
+    I will substantively rewrite a rough draft, preserving your meaning but rephrasing and restructuring the piece to make it clearer and more engaging.
 
 - title: Quick review
-  summary: A quick turnaround reading where I suggest improvements. Good for a second opinion before you publish.
-  price: "Free"
-  details: |
-    If you'd like a light-touch read before hitting publish, I'm happy to offer a quick review for short pieces. I'll highlight anything that stands out as confusing or worth reconsidering.
-
+  summary: 
+  price: "£40"
+  details:
+    I spend up to an hour correcting obvious errors, suggesting priority edits, and giving my overall impressions on the content. Appropriate if you just want someone to take a quick look. 
+    
     [Get in touch](/contact) to discuss.
 
 - title: Writing coaching
-  summary: I'll offer bespoke writing and editing guidance.
+  summary: 
   price: "£40/hour"
-  details: |
-    After reading your writing, I offer tailored feedback and coaching, working with you to understand your goals and develop your voice. We'll look at both craft (sentence-level choices) and strategy (how to structure and pitch your work).
+  details:
+  I offer writing and editing guidance over calls. 
+
+  I’ve thought a lot about what makes writing good. I can help you with everything from the nuts and bolts of sentence structure, to writer’s block, to the best way to convey your arguments.
+   
 
 - title: Writing assistance
-  summary: I can help you go from 'I want this idea to be written down' to publication.
+  summary:
   price: ""
   details: |
-    Sometimes the hardest part is getting started. I can help at any stage:
+    I can help you write things even if you haven’t written a draft yet. This could involve some combination of:
 
-    - Talking through ideas
-    - Outlining and structuring
-    - Drafting alongside you
+  -coaching and collaboration calls
+  -writing drafts
+  -editing rough drafts/notes 
 
-    Whether you have a rough draft or just a half-formed idea, [get in touch](/contact) and we can figure out the best way to work together.
+  Pricing 
+
+    -£0.12/word for producing content from scratch
+
+    -£0.06/word for substantive editing of rough drafts
+
+    -£0.02-£0.04/word for copyediting
+
+    -£40/hour for calls, additional research, and miscellaneous
 
 - title: Other services
-  summary: I'm happy to offer other services related to writing, editing and review.
+  summary: 
   price: ""
-  details: |
-    If you have something in mind that isn't covered by the categories above, [get in touch](/contact). I'm open to discussing whatever would be most useful to you.
+  details:
+    Clients have hired me to do things that are related to writing and editing but don’t fall into the categories above: for example, developing resources, desk research, and conceptual research collaboration. If you’re interested in hiring me for something like this, get in touch and I’ll propose a bespoke price. 
