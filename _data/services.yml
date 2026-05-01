@@ -8,14 +8,14 @@
   details: |
     These services are for more polished drafts. I can:
 
-   -proofread the draft, correcting spelling, grammatical and formatting errors
-   -suggest language edits to improve the style and make the draft clearer
-   -review the draft and leave feedback on the content: does the argument make sense? Will your non-expert readers understand? Are there any obvious objections you haven’t addressed? What might make the draft more engaging?
+    - proofread the draft, correcting spelling, grammatical and formatting errors
+    - suggest language edits to improve the style and make the draft clearer
+    - review the draft and leave feedback on the content: does the argument make sense? Will your non-expert readers understand? Are there any obvious objections you haven’t addressed? What might make the draft more engaging?
 
     Prices
 
-    -basic proofreading: £0.01 per word
-    -copyediting and review: £0.02-£0.04 per word. The price depends on how intensive the edits are and how complex the subject matter is. This also includes proofreading.
+    - basic proofreading: £0.01 per word
+    - copyediting and review: £0.02-£0.04 per word. The price depends on how intensive the edits are and how complex the subject matter is. This also includes proofreading.
 
     £50 is the minimum price for any of these services (regardless of word count).
 
@@ -28,7 +28,7 @@
 - title: Quick review
   summary: I'll spend an hour suggesting priority edits.
   price: "£40"
-  details:
+  details: |
     I spend up to an hour correcting obvious errors, suggesting priority edits, and giving my overall impressions on the content. Appropriate if you just want someone to take a quick look. 
     
     [Get in touch](/contact) to discuss.
@@ -36,10 +36,10 @@
 - title: Writing coaching
   summary: I’ll offer bespoke writing and editing guidance. 
   price: "£40/hour"
-  details:
-  I offer writing and editing guidance over calls. 
+  details: |
+    I offer writing and editing guidance over calls. 
 
-  I’ve thought a lot about what makes writing good. I can help you with everything from the nuts and bolts of sentence structure, to writer’s block, to the best way to convey your arguments.
+    I’ve thought a lot about what makes writing good. I can help you with everything from the nuts and bolts of sentence structure, to writer’s block, to the best way to convey your arguments.
    
 
 - title: Writing assistance
